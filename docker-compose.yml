@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  contr0l:
+    image: ${DOCKER_REGISTRY-}contr0l
+    build:
+      context: .
+      dockerfile: contr0l/Dockerfile
